@@ -1,0 +1,11 @@
+Si queremos restarurar el los archivos que tenemos alojados en GITHUB lo que tenemos que hacer primero es una conexion shh a CDmon en mi caso 
+"ssh pablocan@ssh.pablocanomartinez.com.mialias.net" pass "a12345678"
+una vez dentro nos dirigiremos hacia el directorio web, dentro de el iniciaremos GIT
+"git init"
+Realizaremos la conexion a nuestro repositorio 
+"git remote add conexion https://github.com/Pablocanomartinez/jml41" para comprobar "git remote -v"
+Una vez la conexion lista nos deberemos de traer los archivos para ello 
+"git pull conexion master"
+Asi recuperaremos todos los archivos.
+
+La base de datos para recuperar los datos tenemos que exportarla periodicamente y para recuperar los datos simplemente importarla de nuevo.
